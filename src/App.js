@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import Login from './Compo/Login';
+import React from 'react';
+ function App() {
   return (
-   <></>
+   <>
+   <Login/>
+   </>
   );
 }
-
-export default App;
+export default App
